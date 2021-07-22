@@ -1,0 +1,22 @@
+
+
+<!--****AFTER MAKING THE MOD BACKWARDS COMPATIBLE TO 1.0 I REALIZED THAT NOTHING USED /COMMON EXCEPT FOR 1.3****-->
+<!--***THIS IS BEING LEFT AS AN ARCHIVE FOR ANY FURTURE MODDERS WHO STUMBLE UPON IT***-->
+<!--**AS OF WRITING THIS, NO (ZERO, NONE, NADA) VERSIONS USE THIS .xml OR THE /COMMON FOLDER**-->
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>    
+
+    <Operation Class="PatchOperationRemove"> <!--Removes "Class=CompProperties_Refuelable" Node(?-->
+            
+        <success>Normal</success> <!--Defines the "success" option, not sure if necessary-->
+
+        <!--li[2] ensures that the only <li> being patched out/removed is the second one. This ensures that torches still glow, emit warmth, act as meditation sources, etc. etc.-->
+    
+        <xpath>/Defs/ThingDef[defName="TorchLamp"]/comps/li[2]</xpath> 
+    
+    </Operation>
+
+</Patch>
