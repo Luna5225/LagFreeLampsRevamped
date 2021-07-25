@@ -15,18 +15,9 @@
     </supportedVersions>
 
     <description>
-    Complete rewrite of Lag Free Lamps (by NECEROS) that includes:
+    Torches (Dark/Dark Fungal), Passive Coolers, Campfires, Wood-Fired/Chemfuel-Powered Generators no longer require fuelling
 
-    Backwards compatibility (1.0-1.2)
-
-    Patches for Royalty/Ideology
-
-    Correct Folder Structure for future versions/expansions. 
-
-    Credit for the original mod and inspiration for this one goes to NECEROS. 
-    BUT, this mod contains zero (0) code from their mod, and should be treated as its own entity.
-
-    **DOES NOT REQUIRE ORIGINAL MOD TO FUNCTION**
+    Check Mod Settings Menu for complete customization!
     </description>
 
     <modDependencies>
