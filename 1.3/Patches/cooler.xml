@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>    
+
+    <!--Removes "Class=CompProperties_Refuelable" Node-->
+
+    <Operation Class="PatchOperationRemove"> 
+            
+        <!--Defines the "success" option, not sure if necessary-->
+
+        <success>Normal</success> 
+
+        <!--li[2] ensures that the only <li> being patched out/removed
+            is the second one. This ensures that torches still glow, emit warmth,
+            act as meditation sources, etc. etc.-->
+    
+        <xpath>/Defs/ThingDef[defName="PassiveCooler"]/comps/li[2]</xpath> 
+    
+    </Operation>
+
+</Patch>
