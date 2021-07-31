@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Manifest>
+
+    <identifier>LagFreeLampsExpanded</identifier>
+
+    <version>1.0</version>
+
+    <loadAfter>
+        <li>Ludeon.Rimworld</li>
+        <li>Ludeon.Rimworld.Royalty</li>
+        <li>Ludeon.Rimworld.Ideology</li>
+    </loadAfter>
+
+</Manifest>
